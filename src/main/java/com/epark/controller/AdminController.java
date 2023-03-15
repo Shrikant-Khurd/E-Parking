@@ -31,8 +31,8 @@ public class AdminController {
 
 	@GetMapping("/all-customers")
 	public ResponseEntity<List<Users>> getAllCustomer(String userRole) {
-		List<Users> allUsers = userService.getAllCustomer(userRole);
-		return new ResponseEntity<List<Users>>(allUsers, HttpStatus.OK);
+		List<Users> allUsersss = userService.getAllCustomer(userRole);
+		return new ResponseEntity<List<Users>>(allUsersss, HttpStatus.OK);
 	}
 
 	@GetMapping("/all-Parking-Service-Provider")
