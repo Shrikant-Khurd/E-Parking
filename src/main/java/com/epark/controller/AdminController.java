@@ -22,7 +22,7 @@ import com.epark.service.UserService;
 public class AdminController {
 	@Autowired
 	private UserService userService;
-	
+
 	@GetMapping("/get-all-users")
 	public ResponseEntity<List<Users>> getAllUsers() {
 		List<Users> userList = userService.getAllUser();
@@ -33,6 +33,7 @@ public class AdminController {
 	public ResponseEntity<List<Users>> getAllCustomer(String userRole) {
 		List<Users> allCustomers = userService.getAllCustomer(userRole);
 		return new ResponseEntity<List<Users>>(allCustomers, HttpStatus.OK);
+
 	}
 
 	@GetMapping("/all-Parking-Service-Provider")
