@@ -1,0 +1,6 @@
+2023-02-03 13:57:22,265 [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin {RMI TCP Connection(2)-127.0.0.1} Application shutdown requested.
+2023-02-03 13:57:22,282 [INFO] org.apache.catalina.core.StandardService {RMI TCP Connection(2)-127.0.0.1} Stopping service [Tomcat]
+2023-02-03 13:57:22,283 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {RMI TCP Connection(2)-127.0.0.1} Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-03 13:57:22,297 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {RMI TCP Connection(2)-127.0.0.1} Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-03 13:57:22,298 [INFO] com.zaxxer.hikari.HikariDataSource {RMI TCP Connection(2)-127.0.0.1} HikariPool-11 - Shutdown initiated...
+2023-02-03 13:57:22,306 [INFO] com.zaxxer.hikari.HikariDataSource {RMI TCP Connection(2)-127.0.0.1} HikariPool-11 - Shutdown completed.
